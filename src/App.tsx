@@ -1,7 +1,11 @@
-export const App = () => {
+type AppProps = {
+  message: string;
+};
+
+export const App = ({ message }: AppProps) => {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <h1>{message}</h1>
     </div>
   );
 };
