@@ -3,7 +3,6 @@
 ## Usage
 
 ```sh
-$ git clone https://github.com/sprout2000/vite-react-typescript.git
-$ cd vite-react-typescript
-$ docker-compose up
+git clone https://github.com/yuuttana1223/docker-react-ts.git
+docker-compose up -d
 ```
