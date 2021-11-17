@@ -1,3 +1,5 @@
+import { Counter } from "./Counter";
+
 type AppProps = {
   message: string;
   description?: string;
@@ -8,7 +10,7 @@ export const App: React.FunctionComponent<AppProps> = ({
 }: AppProps) => {
   return (
     <div className="App">
-      <h1>{message}</h1>
+      <Counter />
     </div>
   );
 };
